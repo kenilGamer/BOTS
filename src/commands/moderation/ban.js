@@ -8,7 +8,7 @@ const {
  require('discord.js');
 
 module.exports = {
-  deleted: true,
+  deleted: false,
   name: 'ban',
   description: 'Bans a member!!!',
   // devOnly: Boolean,
@@ -17,7 +17,7 @@ module.exports = {
     {
       name: 'target-user',
       description: 'The user to ban.',
-      required: true,
+      // required: true, 
       type: ApplicationCommandOptionType.Mentionable,
     },
     {

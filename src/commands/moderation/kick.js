@@ -7,7 +7,7 @@ const {
 // Rest of your code...
 
   module.exports = {
-    deleted: true,
+    deleted: false ,
     name: 'kick',
     description: 'kick a member!!!',
     // devOnly: Boolean,
@@ -16,7 +16,7 @@ const {
       {
         name: 'target-user',
         description: 'The user to kick.',
-        required: true,
+        // required: true,
         type: ApplicationCommandOptionType.Mentionable,
       },
       {
